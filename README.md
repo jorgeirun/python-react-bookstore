@@ -67,5 +67,4 @@ Acknowledgements
 	•	Unsplash for book cover images.
 
 
-
 Also see books-frontend/README.md
