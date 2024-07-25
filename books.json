@@ -1,0 +1,242 @@
+[
+   {
+      "id":0,
+      "author":"J.K. Rowling",
+      "publish_date":"June 26, 1997",
+      "title":"Harry Potter and the Philosopher's Stone",
+      "genre":"Fantasy",
+      "cover_url":"https://images.unsplash.com/photo-1471871480126-59ab253c49e9?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":1,
+      "author":"George Orwell",
+      "publish_date":"June 8, 1949",
+      "title":"1984",
+      "genre":"Dystopian",
+      "cover_url":"https://images.unsplash.com/photo-1706391989349-7882ece26c0c?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":2,
+      "author":"J.R.R. Tolkien",
+      "publish_date":"July 29, 1954",
+      "title":"The Lord of the Rings: The Fellowship of the Ring",
+      "genre":"Fantasy",
+      "cover_url":"https://images.unsplash.com/photo-1706115963936-43054590f598?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":3,
+      "author":"Jane Austen",
+      "publish_date":"January 28, 1813",
+      "title":"Pride and Prejudice",
+      "genre":"Romance",
+      "cover_url":"https://images.unsplash.com/photo-1706362723628-60e8f1929ffe?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":4,
+      "author":"Agatha Christie",
+      "publish_date":"November 1926",
+      "title":"The Murder of Roger Ackroyd",
+      "genre":"Mystery",
+      "cover_url":"https://plus.unsplash.com/premium_photo-1706344618685-130196b0956c?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":5,
+      "author":"Leo Tolstoy",
+      "publish_date":"1877",
+      "title":"Anna Karenina",
+      "genre":"Classics",
+      "cover_url":"https://images.unsplash.com/photo-1706273427992-8a1b37142cb8?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":6,
+      "author":"F. Scott Fitzgerald",
+      "publish_date":"April 10, 1925",
+      "title":"The Great Gatsby",
+      "genre":"Classics",
+      "cover_url":"https://images.unsplash.com/photo-1706088604350-f3c46951ee02?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":7,
+      "author":"Mark Twain",
+      "publish_date":"1884",
+      "title":"Adventures of Huckleberry Finn",
+      "genre":"Adventure",
+      "cover_url":"https://images.unsplash.com/photo-1506619928596-bb8c201545cc?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":8,
+      "author":"Harper Lee",
+      "publish_date":"July 11, 1960",
+      "title":"To Kill a Mockingbird",
+      "genre":"Classics",
+      "cover_url":"https://images.unsplash.com/photo-1706359600093-ac7f78371945?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":9,
+      "author":"Gabriel García Márquez",
+      "publish_date":"May 30, 1967",
+      "title":"One Hundred Years of Solitude",
+      "genre":"Magical Realism",
+      "cover_url":"https://plus.unsplash.com/premium_photo-1706281895733-b685a6435d27?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":10,
+      "author":"Ernest Hemingway",
+      "publish_date":"September 1926",
+      "title":"The Sun Also Rises",
+      "genre":"Literary Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706211306706-8f36d91c8379?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":11,
+      "author":"Charlotte Brontë",
+      "publish_date":"October 16, 1847",
+      "title":"Jane Eyre",
+      "genre":"Gothic Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1705951439619-28c0fbbd0ab0?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":12,
+      "author":"Margaret Atwood",
+      "publish_date":"September 8, 1985",
+      "title":"The Handmaid's Tale",
+      "genre":"Dystopian",
+      "cover_url":"https://images.unsplash.com/photo-1471871480126-59ab253c49e9?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":13,
+      "author":"Stephen King",
+      "publish_date":"September 15, 1986",
+      "title":"It",
+      "genre":"Horror",
+      "cover_url":"https://images.unsplash.com/photo-1706391989349-7882ece26c0c?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":14,
+      "author":"Kazuo Ishiguro",
+      "publish_date":"August 30, 2005",
+      "title":"Never Let Me Go",
+      "genre":"Science Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706115963936-43054590f598?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":15,
+      "author":"Toni Morrison",
+      "publish_date":"September 1987",
+      "title":"Beloved",
+      "genre":"Historical Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706362723628-60e8f1929ffe?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":16,
+      "author":"J.D. Salinger",
+      "publish_date":"July 16, 1951",
+      "title":"The Catcher in the Rye",
+      "genre":"Coming-of-Age",
+      "cover_url":"https://plus.unsplash.com/premium_photo-1706344618685-130196b0956c?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":17,
+      "author":"Mary Shelley",
+      "publish_date":"January 1, 1818",
+      "title":"Frankenstein",
+      "genre":"Gothic Science Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706273427992-8a1b37142cb8?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":18,
+      "author":"Ray Bradbury",
+      "publish_date":"October 1953",
+      "title":"Fahrenheit 451",
+      "genre":"Science Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706088604350-f3c46951ee02?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":19,
+      "author":"Alice Walker",
+      "publish_date":"February 9, 1982",
+      "title":"The Color Purple",
+      "genre":"Epistolary novel",
+      "cover_url":"https://images.unsplash.com/photo-1506619928596-bb8c201545cc?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":20,
+      "author":"Fyodor Dostoevsky",
+      "publish_date":"1866",
+      "title":"Crime and Punishment",
+      "genre":"Psychological Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706359600093-ac7f78371945?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":21,
+      "author":"Aldous Huxley",
+      "publish_date":"1932",
+      "title":"Brave New World",
+      "genre":"Science Fiction",
+      "cover_url":"https://plus.unsplash.com/premium_photo-1706281895733-b685a6435d27?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":22,
+      "author":"Emily Brontë",
+      "publish_date":"December 1847",
+      "title":"Wuthering Heights",
+      "genre":"Gothic Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706211306706-8f36d91c8379?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":23,
+      "author":"Charles Dickens",
+      "publish_date":"December 19, 1843",
+      "title":"A Christmas Carol",
+      "genre":"Ghost story",
+      "cover_url":"https://images.unsplash.com/photo-1705951439619-28c0fbbd0ab0?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":24,
+      "author":"Virginia Woolf",
+      "publish_date":"May 28, 1929",
+      "title":"A Room of One's Own",
+      "genre":"Essay",
+      "cover_url":"https://images.unsplash.com/photo-1471871480126-59ab253c49e9?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":25,
+      "author":"John Steinbeck",
+      "publish_date":"September 1939",
+      "title":"The Grapes of Wrath",
+      "genre":"Historical Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706391989349-7882ece26c0c?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":26,
+      "author":"Herman Melville",
+      "publish_date":"October 18, 1851",
+      "title":"Moby-Dick",
+      "genre":"Adventure Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706115963936-43054590f598?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":27,
+      "author":"Gillian Flynn",
+      "publish_date":"June 5, 2012",
+      "title":"Gone Girl",
+      "genre":"Mystery Thriller",
+      "cover_url":"https://images.unsplash.com/photo-1706362723628-60e8f1929ffe?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":28,
+      "author":"Ken Kesey",
+      "publish_date":"February 1962",
+      "title":"One Flew Over the Cuckoo's Nest",
+      "genre":"Psychological Fiction",
+      "cover_url":"https://plus.unsplash.com/premium_photo-1706344618685-130196b0956c?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   },
+   {
+      "id":29,
+      "author":"Ayn Rand",
+      "publish_date":"October 10, 1957",
+      "title":"Atlas Shrugged",
+      "genre":"Philosophical Fiction",
+      "cover_url":"https://images.unsplash.com/photo-1706273427992-8a1b37142cb8?q=80&w=540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   }
+]
