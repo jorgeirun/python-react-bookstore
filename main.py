@@ -17,8 +17,17 @@ app.add_middleware(
 )
 
 @app.get("/")
-def read_root():
-    return {"Hello": "World"}
+def get_home():
+    return {"data": "Welcome to the homepage"}
+
+@app.get("/about")
+def get_home():
+    return {"data": "Welcome to the about page"}
+
+@app.get("/contact")
+def get_home():
+    return {"data": "Welcome to the contact page"}
+
 
 @app.get("/books/")
 # http://127.0.0.1:8000/books/?skip=0&limit=6
