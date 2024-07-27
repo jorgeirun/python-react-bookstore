@@ -16,7 +16,7 @@ function DataFetcher({ url_path, onDataFetched }) {
             }
         };
         fetchData();
-    }, [onDataFetched]);
+    }, []);
 
     return null;
 }

@@ -1,23 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import './App.css'
 import { API_BASE_URL } from './constants';
+import Layout from './Layout.js';
 
-function App() {
+function AboutPage() {
 
     const [content, setContent] = useState("")
 
     useEffect(() => {
         fetch(`${API_BASE_URL}/about`)
-        .then(res => res.json())
-        .then(data => setContent(data.data))
+            .then(res => res.json())
+            .then(data => setContent(data.data))
     })
 
     return (
-        <div>
-            {content}
-        </div>
+        <Layout>
+            <div className="App">
+                <header className="App-header">
+                    <div className="main">
+                        {content}
+                    </div>
+                </header>
+            </div>
+        </Layout>
     )
 
 }
 
-export default App;
+export default AboutPage;

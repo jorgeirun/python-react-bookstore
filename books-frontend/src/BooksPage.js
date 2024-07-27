@@ -1,36 +1,43 @@
-import React, { useState } from 'react';
-import DataFetcher from './DataFetcher';
+import React, { useEffect, useState, useCallback } from 'react';
 import './App.css';
+import { API_BASE_URL } from './constants';
 
 function App() {
 
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const url_path = `${API_BASE_URL}/books`;
 
-  const handleDataFetched = (fetchedData) => {
-    if (fetchedData.error) {
-      setError(fetchedData.error);
-    } else {
-      const booksList = fetchedData.data.map(bookItem => ({
-        id: bookItem.id,
-        title: bookItem.title,
-        cover_url: bookItem.cover_url,
-      }));
-      setBooks(booksList);
-    }
+  const onDataFetched = useCallback((data) => {
     setLoading(false);
-  };
+    setBooks(data.data);
+  }, []);
+
+  useEffect(() => {
+    fetch(`${API_BASE_URL}/books`)
+      .then(res => {
+        if (!res.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return res.json();
+      })
+      .then(onDataFetched)
+      .catch(error => {
+        console.error('Error fetching data:', error);
+        setLoading(false);
+        setError(error.message || 'Unknown error');
+      });
+  }, [url_path, onDataFetched])
 
   return (
     <div className="App">
       <header className="App-header">
-        <DataFetcher onDataFetched={handleDataFetched} />
-        {loading && <p>Loading..</p>}
-        {error && <p>Error: {error}</p>}
-        {!loading && !error && (
-          <div className="main">
-            <div className="books">
+        <div className="main">
+          {loading && <p>Loading..</p>}
+          {error && <p>Error: {error}</p>}
+          {!loading && !error && (
+            < div className="books">
               {books.map((bookItem) => (
                 <div key={bookItem.id} className="book">
                   <img src={bookItem.cover_url} alt={bookItem.title} className="book-cover" />
@@ -40,11 +47,10 @@ function App() {
                 </div>
               ))}
             </div>
-          </div>
-
-        )}
-      </header>
-    </div>
+          )}
+        </div>
+      </header >
+    </div >
   );
 }
 

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { API_BASE_URL } from './constants';
+import Layout from './Layout.js';
 
-function App() {
+function ContactPage() {
 
     const [content, setContent] = useState("")
 
@@ -13,11 +14,17 @@ function App() {
     })
 
     return (
-        <div>
-            {content}
-        </div>
+        <Layout>
+            <div className="App">
+                <header className="App-header">
+                    <div className="main">
+                        {content}
+                    </div>
+                </header>
+            </div>
+        </Layout>
     )
 
 }
 
-export default App;
+export default ContactPage;
