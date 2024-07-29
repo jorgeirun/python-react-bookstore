@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import './App.css';
+import './css/App.css';
 import { API_BASE_URL } from './constants';
+import Layout from './layout/Layout';
 
 function App() {
 
@@ -31,26 +32,28 @@ function App() {
   }, [url_path, onDataFetched])
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="main">
-          {loading && <p>Loading..</p>}
-          {error && <p>Error: {error}</p>}
-          {!loading && !error && (
-            < div className="books">
-              {books.map((bookItem) => (
-                <div key={bookItem.id} className="book">
-                  <img src={bookItem.cover_url} alt={bookItem.title} className="book-cover" />
-                  <div className="book-details">
-                    <h3 className="book-title">{bookItem.title}</h3>
+    <Layout>
+      <div className="App">
+        <header className="App-header">
+          <div className="main">
+            {loading && <p>Loading..</p>}
+            {error && <p>Error: {error}</p>}
+            {!loading && !error && (
+              < div className="books">
+                {books.map((bookItem) => (
+                  <div key={bookItem.id} className="book">
+                    <img src={bookItem.cover_url} alt={bookItem.title} className="book-cover" />
+                    <div className="book-details">
+                      <h3 className="book-title">{bookItem.title}</h3>
+                    </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </header >
-    </div >
+                ))}
+              </div>
+            )}
+          </div>
+        </header >
+      </div >
+    </Layout>
   );
 }
 

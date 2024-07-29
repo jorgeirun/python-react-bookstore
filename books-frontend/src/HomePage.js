@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
-import { API_BASE_URL } from './constants'
-import Layout from './Layout';
+import './css/App.css';
+import { API_BASE_URL } from './constants';
+import Layout from './layout/Layout';
 
 function HomePage() {
 
